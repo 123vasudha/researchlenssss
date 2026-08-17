@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Env
+.env
+
+# Data / indices
+backend/data/faiss.index*
+backend/data/papers_metadata.json
+*.db
+
+# Node
+node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
